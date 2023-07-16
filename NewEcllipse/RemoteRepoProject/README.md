@@ -1,0 +1,1 @@
+A sample project to demonstrate the git remote repository

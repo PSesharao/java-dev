@@ -1,0 +1,75 @@
+<!-- Error form begin-->
+<div id="teamform" class="animated lightSpeedIn">
+  <div class="card ">
+
+    <h5 class="card-header info-color white-text text-center py-4">
+      <strong>Team</strong>
+    </h5>
+
+    <!--Card content-->
+    <div class="card-body px-lg-5 ">
+      <!-- Form -->
+      <form class="text-center" style="color: #757575;"
+        id="appteamform">
+
+        <table align="center" , width="50%" cellpadding="20%">
+          <tr>
+            <td>
+              <!-- Name -->
+              <div class="row">
+
+                <div class="col-sm-5"></div>
+                <div class="md-form mt-3">
+                  <div class="invalid-tooltip" id="username_error_message1">
+                  </div>
+                  <input type="text" id="inputName1" class="form-control "
+                    name="name"> <label for="inputName">Name</label>
+                </div>
+
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- slider -->
+              <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-0">Max Budget</div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+
+
+              <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="w-35">
+                  <input type="range" class="custom-range"
+                    id="customRange11" min="0" max="200" value="50"
+                    name="maxBudget">
+                </div>
+                <span class="font-weight-bold text-primary ml-2 valueSpan2"></span>
+              </div>
+
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- Submit button -->
+              <div class="row">
+                <div class="col-sm-5"></div>
+                <button
+                  class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect col-sm-4"
+                  type="submit" id="button1">Submit</button>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </form>
+      <div id="postResultDiv"></div>
+    </div>
+  </div>
+</div>
+<!-- Error form end -->

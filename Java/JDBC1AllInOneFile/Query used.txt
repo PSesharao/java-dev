@@ -1,0 +1,9 @@
+create database phones_db;
+use phones_db;
+
+create table phones( id int,
+name varchar(20),
+price double);
+show tables;
+
+insert into phones values(1,"lenovo",10000);

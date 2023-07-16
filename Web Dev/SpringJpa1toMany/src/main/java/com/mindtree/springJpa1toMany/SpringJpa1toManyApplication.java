@@ -1,0 +1,13 @@
+package com.mindtree.springJpa1toMany;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringJpa1toManyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringJpa1toManyApplication.class, args);
+	}
+
+}
